@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		328C4A0523FA6E4300E3F41F /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C4A0423FA6E4300E3F41F /* Builder.swift */; };
 		32C1B76523FA69C300F886DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C1B76423FA69C300F886DD /* AppDelegate.swift */; };
 		32C1B76723FA69C300F886DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C1B76623FA69C300F886DD /* SceneDelegate.swift */; };
 		32C1B76923FA69C300F886DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C1B76823FA69C300F886DD /* ViewController.swift */; };
 		32C1B76C23FA69C300F886DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C1B76A23FA69C300F886DD /* Main.storyboard */; };
 		32C1B76E23FA69C600F886DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C1B76D23FA69C600F886DD /* Assets.xcassets */; };
 		32C1B77123FA69C600F886DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C1B76F23FA69C600F886DD /* LaunchScreen.storyboard */; };
+		32C1B77923FA69D600F886DD /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C1B77823FA69D500F886DD /* Presenter.swift */; };
+		32C1B77B23FA6A9100F886DD /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C1B77A23FA6A9100F886DD /* Interactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		328C4A0423FA6E4300E3F41F /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		32C1B76123FA69C300F886DD /* Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Builder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C1B76423FA69C300F886DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32C1B76623FA69C300F886DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		32C1B76D23FA69C600F886DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32C1B77023FA69C600F886DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C1B77223FA69C600F886DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C1B77823FA69D500F886DD /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		32C1B77A23FA6A9100F886DD /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				32C1B76423FA69C300F886DD /* AppDelegate.swift */,
 				32C1B76623FA69C300F886DD /* SceneDelegate.swift */,
-				32C1B76823FA69C300F886DD /* ViewController.swift */,
 				32C1B76A23FA69C300F886DD /* Main.storyboard */,
 				32C1B76D23FA69C600F886DD /* Assets.xcassets */,
 				32C1B76F23FA69C600F886DD /* LaunchScreen.storyboard */,
 				32C1B77223FA69C600F886DD /* Info.plist */,
+				32C1B77823FA69D500F886DD /* Presenter.swift */,
+				32C1B77A23FA6A9100F886DD /* Interactor.swift */,
+				32C1B76823FA69C300F886DD /* ViewController.swift */,
+				328C4A0423FA6E4300E3F41F /* Builder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C1B76923FA69C300F886DD /* ViewController.swift in Sources */,
+				328C4A0523FA6E4300E3F41F /* Builder.swift in Sources */,
 				32C1B76523FA69C300F886DD /* AppDelegate.swift in Sources */,
+				32C1B77B23FA6A9100F886DD /* Interactor.swift in Sources */,
+				32C1B77923FA69D600F886DD /* Presenter.swift in Sources */,
 				32C1B76723FA69C300F886DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
